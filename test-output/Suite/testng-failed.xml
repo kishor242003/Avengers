@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ninza.crm.products.AddProductsTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBm"/>
+          <include name="configAM"/>
+          <include name="addProductsWithMandatoryFieldstest"/>
+        </methods>
+      </class> <!-- com.ninza.crm.products.AddProductsTest -->
+      <class name="com.ninza.crm.campaigns.CreateCampaignsTest">
+        <methods>
+          <include name="createCampaignsWithMandatoryFieldsTest"/>
+          <include name="configBS"/>
+          <include name="createCampaignsWithStatusTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBm"/>
+          <include name="configAM"/>
+          <include name="createCampaignsWithExpectedDateTest"/>
+        </methods>
+      </class> <!-- com.ninza.crm.campaigns.CreateCampaignsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
